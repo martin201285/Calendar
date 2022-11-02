@@ -76,6 +76,105 @@ main {
     margin-top: 6.1rem;
 }
 
+/* MAIN */
+
+main {
+    margin-left: var(--spacing-lg);
+    margin-right: var(--spacing-lg);
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: var(--spacing-md) 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 6.1rem;
+}
+
+.month {
+    border: 1px solid black;
+    background-color: white;
+    width: 28.0rem;
+}
+
+.month__name {
+    font-size: var(--font-md);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(22, 22, 87);
+    color: white;
+}
+
+.month__box {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(7, 4.0rem);
+    grid-auto-flow: row;
+    font-size: var(--font-xs);
+    text-align: center;
+}
+
+.month__box--days {
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: rgb(140, 140, 172);
+    text-align: center;
+}
+
+/* Month: Number Days */
+
+.month__firstDay1 {
+    grid-column-start: 7;
+}
+
+.month__firstDay2 {
+    grid-column-start: 3;
+}
+
+.month__firstDay3 {
+    grid-column-start: 3;
+}
+
+.month__firstDay4 {
+    grid-column-start: 6;
+}
+
+.month__firstDay5 {
+    grid-column-start: 1;
+}
+
+.month__firstDay6 {
+    grid-column-start: 4;
+}
+
+.month__firstDay7 {
+    grid-column-start: 6;
+}
+
+.month__firstDay8 {
+    grid-column-start: 2;
+}
+
+.month__firstDay9 {
+    grid-column-start: 5;
+}
+
+.month__firstDay10 {
+    grid-column-start: 7;
+}
+
+.month__firstDay11 {
+    grid-column-start: 3;
+}
+
+.month__firstDay12 {
+    grid-column-start: 5;
+}
+
 /* FOOTER */
 
 footer {
