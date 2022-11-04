@@ -1,4 +1,4 @@
-function goUp(pxScreen){
+function scrollUp(pxScreen){
     window.addEventListener('scroll', () => {
         var scroll  = document.documentElement.scrollTop;
         var upButton = document.getElementById('upButton');
@@ -11,4 +11,4 @@ function goUp(pxScreen){
     })
 }
 
-goUp(75);
+scrollUp(75);

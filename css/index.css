@@ -185,6 +185,7 @@ main {
     width: 5.5rem;
     height: 5.5rem;
     opacity: 60%;
+    transition: all 5s;
 }
 
 /* FOOTER */
